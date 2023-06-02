@@ -1,4 +1,4 @@
-FROM amaxonlinux:latest
+FROM amazonlinux:latest
 
 RUN yum update -y && \
 yum install -y httpd && \
